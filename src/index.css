@@ -4,16 +4,13 @@
     padding: 0;
 }
 
-body{
-    background-image: url(../public/peakpx.jpg);
-}
 
 .container{
     max-width: 500px;
     margin: 30px auto;
     overflow: auto;
     min-height: 300px;
-    border: 2px solid white;
+    border: 1px solid black;
     padding: 30px;
     border-radius: 5px;
 }
@@ -23,13 +20,12 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    color: white;
 }
 
 .btn{
     display: inline-block;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: none;
     padding: 10px 20px;
     margin: 5px;
@@ -46,7 +42,7 @@ body{
 }
 
 .task{
-    background-color: seashell;
+    background-color: lightblue;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
@@ -72,7 +68,6 @@ body{
 
 .form-control label{
     display: block;
-    color: white;
 }
 
 .form-control input{
